@@ -11,6 +11,9 @@ int main()
 {
     int arr[2][3] = {{1, 2, 3}, {4, 5, 6}};
     print_2array((int **)arr, 2, 3);
+    cout << "arr的首地址: " << arr << endl;
+    cout << "arr第二行的首地址: " << *(arr+1) << endl;
+    cout << "arr第一行的首地址: " << arr[0] << endl;
 
     cout << "int类型占内存大小: " << sizeof(int) << endl;
     cout << "arr数组占内存大小: " << sizeof(arr) << endl;
