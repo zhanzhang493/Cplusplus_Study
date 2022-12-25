@@ -27,6 +27,7 @@
 *.lib
 
 # Executables
+*.stackdump
 *.exe
 *.out
 *.app
