@@ -10,7 +10,7 @@ int main(){
     TypeInput a_fixed = a;
     cout << a_fixed << endl;
     cout << std::hex << a_fixed << endl;
-    cout << std::bin << a_fixed << endl;
+
 	cout << a_fixed.to_string(AC_BIN, false, false) << endl;
     cout << a_fixed.to_string(AC_BIN, false, true) << endl;
 	cout << a_fixed.to_string(AC_BIN, true, false) << endl;
