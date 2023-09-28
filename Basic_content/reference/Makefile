@@ -1,7 +1,7 @@
 INCLUDE_DIRS += -I ../../include/ac_types
 OBJECTS = $(wildcard *.cpp)
 
-all: reference_1 reference_2 reference_3 reference_const reference_const reference_function_1 reference_function_2
+all: reference_1 reference_2 reference_3 reference_const reference_function_1 reference_function_2
 	@echo $(OBJECTS)
 
 reference_1: reference_1.cpp

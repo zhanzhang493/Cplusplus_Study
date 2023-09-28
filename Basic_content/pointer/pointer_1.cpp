@@ -2,13 +2,14 @@
 using namespace std;
 
 /* 指针 */
-// 变量名：某块内存的名字
+// * 对象：一块连续的存储区域
+// * 变量名：某块内存的名字
 
 int main()
 {
     // 定义指针
     int a = 10;
-    int * p;
+    int* p = nullptr;
     p = &a;
     cout << "a的地址: " << p << endl;
 
